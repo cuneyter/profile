@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap');
+
+body {
+  background-color: #f8f7de;
+  font-family: "Roboto Mono";
+  color: black;
+  font-size: 12px;
+  line-height: normal;
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+}
+
+h1, h2 {
+  color: #c75643;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #d08752;
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 5%;
+}
+
+a {
+  font-family: "Roboto Mono", sans-serif;
+  text-decoration: none;
+  color: #045762;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn-green {
+  background-color: #61b15a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: ;
+}
+.btn-green:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+/* Responsive Page */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  a {
+    font-size: 12px;
+  }
+}
