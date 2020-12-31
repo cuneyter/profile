@@ -10,6 +10,13 @@ body {
   line-height: normal;
 }
 
+.content-wrapper {
+  position: relative;
+  z-index: 1
+}
+
+/* Header */
+
 .header-container {
   margin: 60px auto 40px auto;
 }
