@@ -20,6 +20,21 @@ body {
   background-repeat:repeat-x;
 }
 
+.background-color-layer {
+  background-size: cover;
+  opacity: .15;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 30%;
+  box-shadow: inset 0 -40px 60px 10px #19a6c3;
+}
+
+/* Main layout */
 
 .content-wrapper {
   position: relative;
@@ -75,103 +90,6 @@ footer a:hover {
   color: black;
 }
 
-
-
-
-
-/* img {
-  height: 250px;
-  width: auto;
-}
-
-h1, h2 {
-  color: #1d3557;
-  font-family: Ubuntu;
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-
-h3 {
-  color: #457b9d;
-  font-family: Ubuntu;
-  font-weight: 700;
-  font-size: 1rem;
-}
-
-p {
-  margin-bottom: 5%;
-}
-
-a {
-  font-family: "Roboto Mono", sans-serif;
-  text-decoration: none;
-  color: #045762;
-  font-weight: 600;
-  font-size: 16px;
-}
-/* a:hover {
-  color: #e63946;
-} */
-/*
-ul {
-  list-style: none;
-}
-
-
-.img-circle {
-  border-radius: 50%;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.container {
-  width: 700px;
-  margin: 40px auto;
-}
-
-.card-white {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  margin: 20px 0px;
-  text-align: center;
-}
-
-.btn-green {
-
-  border: 1px solid #e63946;
-  color:#e63946;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 20px;
-  text-shadow: 1px 1px rgb(0,0,0, 0.2);
-  transition: 0.5s;
-}
-.btn-green:hover {
-  color:white;
-  background-color: #e63946;
-  font-size: 22px;
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.list-inline li {
-  display: inline;
-  padding: 10px;
-}
-.list-inline i {
-  font-size: 50px;
-  color: rgb(230, 230, 230);
-}
-.list-inline i:hover {
-  color: black;
-} */
 
 /* Responsive Page */
 
